@@ -1,0 +1,18 @@
+{
+  "name": "comi-22-2022",
+  "version": "1.0.0",
+  "description": "Formularios",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "MSc. Ángel Daniel Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

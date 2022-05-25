@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/registro.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="tituloFijo">
+            <h1 class="tituloForm">Registro</h1>
+        </div>
+        
+        <section class="fondo">
+            <div class="formulario">
+                <h4 id="subtitulo">Registrate es facil y rápido</h4>
+                <form action="/datos" method="POST">
+                    <div>
+                        <input type="text" name="nombre" placeholder="Indique su nombre" required id="nombre">
+                    </div>
+                    <div>
+                        <input type="text" name="apellido" placeholder="Indique su apellido">
+                    </div>
+                    <div>
+                        <input type="text" name="usuario" placeholder="Indique su usuario">
+                    </div>
+                    <div>
+                        <input type="date" name="fechaNacimiento" placeholder="fecha de nacimiento">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Registrarme">
+                    </div>
+                    <div>
+                        <input class="borrarDatos" 
+                        type="reset" value="Borrar datos">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="boton">
+            <a id="boton" href="/">Inicio</a>
+        </div>
+    </div>
+</body>
+
+</html>
